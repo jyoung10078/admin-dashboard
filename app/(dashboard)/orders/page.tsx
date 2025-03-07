@@ -1,7 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { File } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { OrdersTable } from './orders-table';
+import { OrdersTable } from '../orders-table';
 import { getOrders } from '@/lib/db';
 
 export default async function OrdersPage(
